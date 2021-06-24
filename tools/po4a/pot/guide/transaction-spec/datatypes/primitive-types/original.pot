@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-28 22:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/transaction-spec/datatypes/primitive-types.adoc:2
+#, no-wrap
+msgid "Primitive types"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/primitive-types.adoc:5
+msgid ""
+"Semantic data type content may be of the following primitive types. These "
+"primitive types were taken from {ISO15000}, Annex A."
+msgstr ""
+
+#. type: Table
+#: guide/transaction-spec/datatypes/primitive-types.adoc:22
+#, no-wrap
+msgid ""
+"|Primitive type\n"
+"|Definition\n"
+"\n"
+"|Binary\n"
+"|A set of finite-length sequences of binary digits.\n"
+"\n"
+"|Date\n"
+"|Time point representing a calendar day on a time scale consisting of an origin and a succession of calendar {ISO8601}.\n"
+"\n"
+"|Decimal\n"
+"|A subset of the real numbers, which can be represented by decimal numerals.\n"
+"\n"
+"|String\n"
+"|A finite sequence of characters.\n"
+msgstr ""

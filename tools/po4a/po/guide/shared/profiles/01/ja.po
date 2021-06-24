@@ -1,0 +1,32 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-28 21:23+0900\n"
+"PO-Revision-Date: 2021-06-28 21:23+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/shared/profiles/01.adoc:3
+#, no-wrap
+msgid "Profile 01 - Billing"
+msgstr "プロファイル 01 - 請求"
+
+#. type: Plain text
+#: guide/shared/profiles/01.adoc:6
+msgid ""
+"In the table below you will find the values to be used as the specification "
+"identifier (BT-24) and the business process type (BT-23) for this profile"
+msgstr ""
+"以下の表に、このプロファイルの仕様識別子（BT-24）とビジネス・プロセス・タイプ"
+"（BT-23）として使用される値を示します。"

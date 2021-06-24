@@ -1,0 +1,81 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: 2021-06-25 22:52+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/functionality/intro.adoc:11
+#: guide/transaction-spec/functionality/payment.adoc:2
+#, no-wrap
+msgid "Payment"
+msgstr "支払い"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/payment.adoc:5
+msgid ""
+"An invoice represents a claim for payment. The issuance of an invoice may "
+"take place either before or after the payment is carried out. When an "
+"invoice is issued before payment it represents a request to the Buyer to "
+"pay, in which case the invoice commonly contains information that enables "
+"the Buyer, in the role of a debtor, to correctly initiate the transfer of "
+"the payment, unless that information is already agreed in prior contracts or "
+"by means of payment instructions separately lodged with the Buyer."
+msgstr ""
+"請求書は、支払いの請求を表します。請求書の発行は、支払いが行われる前または後"
+"に行うことができます。請求書が支払い前に発行される場合、それは購入者への支払"
+"い要求を表します。この場合、請求書には通常、債務者の役割で購入者が支払いの転"
+"送を正しく開始できるようにする情報が含まれています。以前の契約で、または購入"
+"者に別途提出された支払い指示によってすでに合意されています。"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/payment.adoc:7
+msgid ""
+"If an invoice is issued after payment, such as when the order process "
+"included payment instructions or when paying with a credit card, online or "
+"telephonic purchases, the invoice may contain information about the payment "
+"made in order to facilitate invoice to payment reconciliation on the Buyer "
+"side. An invoice may be partially paid before issuing such as when a pre-"
+"payment is made to confirm an order."
+msgstr ""
+"注文プロセスに支払い指示が含まれている場合や、クレジットカードでの支払い、オ"
+"ンラインまたは電話での購入など、支払い後に請求書が発行される場合、請求書に"
+"は、購入者の請求書と支払いの調整を容易にするために行われた支払いに関する情報"
+"が含まれる場合があります。側。請求書は、注文を確認するために前払いが行われる"
+"場合など、発行前に部分的に支払われる場合があります。"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/payment.adoc:9
+#, fuzzy
+#| msgid ""
+#| "Invoices, conformant with this specification should identify the means of "
+#| "payment for settlement of the invoice and clearly state what payment "
+#| "amount is requested. They should provide necessary details to support "
+#| "bank transfers in accordance with the Single Euro Payments Area (SEPA) "
+#| "for payments in Euro and the relevant national payment practices for "
+#| "other currencies. Payments by means of Credit Transfer, Direct debit, and "
+#| "Payment Card are in scope."
+msgid ""
+"Invoices, conformant with this specification should identify the means of "
+"payment for settlement of the invoice and clearly state what payment amount "
+"is requested. They should provide necessary details to support bank "
+"transfers. Payments by means of Credit Transfer, Direct debit, and Payment "
+"Card are in scope."
+msgstr ""
+"この仕様に準拠した請求書は、請求書の決済のための支払い方法を特定し、要求され"
+"た支払い金額を明確に記載する必要があります。彼らは、ユーロでの支払いのための"
+"単一ユーロ支払いエリア（SEPA）および他の通貨のための関連する国内支払い慣行に"
+"従って銀行振替をサポートするために必要な詳細を提供する必要があります。クレ"
+"ジット転送、口座振替、および支払いカードによる支払いが対象となります。"

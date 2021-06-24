@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-28 22:00+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/transaction-spec/datatypes/index.adoc:2
+#, no-wrap
+msgid "Semantic datatypes"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/index.adoc:5
+msgid ""
+"Semantic data types are used to bridge the gap between the semantic concepts "
+"expressed by the information elements defined in the semantic model and the "
+"technical implementation. The semantic data types define the allowed value "
+"domain for the content, and any additional information components "
+"(attributes) needed in order to ensure its precise interpretation."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/index.adoc:7
+msgid ""
+"The details of the technical implementation can be found in <<Detailed UBL "
+"message guideline>>"
+msgstr ""

@@ -1,0 +1,122 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-25 17:04+0900\n"
+"PO-Revision-Date: 2021-06-24 17:49+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/principles/roles.adoc:4
+#, no-wrap
+msgid "Parties and roles"
+msgstr "関係者と役割"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/roles.adoc:7
+msgid ""
+"The diagram below shows the roles involved in the invoice and credit note "
+"transactions. The customer and invoice receiver is the same entity, as is "
+"the supplier and the invoice sender."
+msgstr ""
+"以下の図は請求と信用手形取引処理に関する役割を示しています。供給元と請求発行"
+"者、顧客と請求受領者は、同じエンティティとして扱っています。"
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: guide/transaction-spec/principles/roles.adoc:8
+#, no-wrap
+msgid "Functionality and roles"
+msgstr "機能と役割"
+
+#. type: Target for macro image
+#: guide/transaction-spec/principles/roles.adoc:8
+#, no-wrap
+msgid "../shared/images/functionality-and-roles.png"
+msgstr "../shared/images/functionality-and-roles.png"
+
+#. type: Title =
+#: guide/transaction-spec/principles/roles.adoc:11
+#: guide/transaction-spec/descriptions/roles-and-actor.adoc:2
+#, no-wrap
+msgid "Parties"
+msgstr "関係者"
+
+#. type: Labeled list
+#: guide/transaction-spec/principles/roles.adoc:13
+#, no-wrap
+msgid "Customer"
+msgstr "顧客"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/roles.adoc:15
+msgid ""
+"The customer is the legal person or organisation who is in demand of a "
+"product or service. Examples of customer roles: buyer, consignee, debtor, "
+"contracting authority."
+msgstr ""
+"顧客は、製品またはサービスを要求している法人または組織です。 顧客の役割の例："
+"バイヤー、荷受人、債務者、契約当局。"
+
+#. type: Labeled list
+#: guide/transaction-spec/principles/roles.adoc:16
+#, no-wrap
+msgid "Supplier"
+msgstr "供給元"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/roles.adoc:18
+msgid ""
+"The supplier is the legal person or organisation who provides a product or "
+"service."
+msgstr "供給元は、製品またはサービスを提供する法人または組織です。"
+
+#. type: Title ==
+#: guide/transaction-spec/principles/roles.adoc:20
+#, no-wrap
+msgid "Roles"
+msgstr "役割"
+
+#. type: Labeled list
+#: guide/transaction-spec/principles/roles.adoc:22
+#, no-wrap
+msgid "Creditor"
+msgstr "債権者"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/roles.adoc:24
+msgid ""
+"One to whom a debt is owe. The party that claims the payment and is "
+"responsible for resolving billing issues and arranging settlement. The party "
+"that sends the invoice or credit note. Also known as invoice issuer, "
+"accounts receivable or seller."
+msgstr ""
+"請求をする人。 支払いを請求し、請求に関する問題を解決したり和解の手配したりす"
+"る責任を負う当事者。 請求書または信用手形取引を送信する当事者。 請求書発行"
+"者、売掛金請求者、または販売者とも呼ばれます。"
+
+#. type: Labeled list
+#: guide/transaction-spec/principles/roles.adoc:25
+#, no-wrap
+msgid "Debtor"
+msgstr "債務者"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/roles.adoc:26
+msgid ""
+"One who owes debt. The party responsible for making settlement relating to a "
+"purchase. The party that receives the invoice or credit note. Also known as "
+"invoicee, accounts payable, or buyer."
+msgstr ""
+"請求を受け取る人。 購入に関連する決済を行う責任を負う当事者。 請求書または信"
+"用手形取引を受け取る当事者。 請求書、買掛金支払者、または購入者とも呼ばれま"
+"す。"

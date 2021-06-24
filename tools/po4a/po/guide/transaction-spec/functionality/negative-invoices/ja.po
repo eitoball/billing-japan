@@ -1,0 +1,117 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: 2021-06-25 22:56+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/functionality/negative-invoices.adoc:2
+#, no-wrap
+msgid "Negative invoices and credit notes"
+msgstr "ネガティブ請求書と信用手形取引"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:6
+msgid "This BIS supports negative grand totals."
+msgstr "本 BIS では負の総計をサポートします。"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:8
+msgid ""
+"The argument for negative invoices is to open up for a wider spectrum of "
+"invoicing processes."
+msgstr ""
+"ネガティブ請求書を採用する理由は、請求書発行プロセスの幅を広げるためです。"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:10
+msgid "Examples of such processes are"
+msgstr "そのような処理の例は以下の通りです。"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:12
+msgid ""
+"Preliminary (estimated) consumption invoice that is balanced out in a later "
+"meter-based invoice;"
+msgstr ""
+"後に請求される従量課金での請求書で調節されるが取られる事前（推定）消費請求"
+"書。"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:13
+#, fuzzy
+#| msgid ""
+#| "Pre-payment (with or without VAT) is settled through a final invoice; and"
+msgid ""
+"Pre-payment (with or without CT) is settled through a final invoice; and"
+msgstr ""
+"前払い（付加価値税の有無にかかわらず）は、最終的な請求書で決済されます。そし"
+"て"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:14
+msgid ""
+"Some user communities prefer to use negative invoice rather than credit note "
+"when correcting transactions."
+msgstr ""
+"一部の人は、帳簿を修正する場合に、信用手形ではなくマイナスの請求書を使用する"
+"ことを好みます。"
+
+#. type: delimited block = 4
+#: guide/transaction-spec/functionality/negative-invoices.adoc:17
+msgid ""
+"Buyers who value automatic matching of e-invoices to orders or invoicing "
+"objects may wish to limit the areas and situations where complex "
+"transactions can be accepted and voice their requirements at time of "
+"procurement."
+msgstr ""
+"電子請求書と注文または請求対象との自動照合を重視する買い手は、複雑なトランザ"
+"クションを受け入れることができる領域と状況を制限し、調達時に要件を明示するこ"
+"とをお勧めします。"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:20
+msgid "The decision has the following implications on the transaction format:"
+msgstr "この決定は、取引の形式に次の影響を及ぼします:"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:22
+msgid ""
+"The invoice (now with “negative invoice capacity”) can function as an "
+"alternative to the credit note. Invoice-generating systems may implement "
+"either option, while invoice-receiving systems have to support both of them."
+msgstr ""
+"請求書（「ネガティブ請求書」）は、信用手形の代替として機能できます。請求書生"
+"成システムはどちらを利用しても実装できますが、請求書受信システムは両方をサ"
+"ポートする必要があります。"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:23
+msgid ""
+"The transaction format for credit note has to be designed to accommodate for "
+"negative grand total, as well; this is because an entire negative invoice "
+"may have to be balanced out by means of a credit note."
+msgstr ""
+"信用手形の取引形式は、負の総計にも対応できるように設計する必要があります。こ"
+"れは、マイナスの請求書全体を信用手形で相殺する必要がある場合があるためです。"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:25
+msgid ""
+"Attention is drawn to the intrinsic differences between credit note and "
+"negative invoice when it comes to convey crediting information."
+msgstr ""
+"与信情報の伝達に関して、信用手形とネガティブ請求書の本質的な違いがあることに"
+"注意する必要があります。"

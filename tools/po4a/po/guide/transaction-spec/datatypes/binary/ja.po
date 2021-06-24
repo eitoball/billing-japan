@@ -1,0 +1,102 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-28 22:14+0900\n"
+"PO-Revision-Date: 2021-06-28 22:14+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/datatypes/binary.adoc:2
+#, no-wrap
+msgid "Binary objects"
+msgstr "バイナリオブジェクト"
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/binary.adoc:5
+msgid ""
+"Binary objects can be used to describe files which are transmitted together "
+"with the Invoice. The attachment functionality is not intended for of "
+"including a copy of the invoice in an image format (such as PDF). Attaching "
+"an invoice copy is not in compliance with this specification."
+msgstr ""
+"バイナリオブジェクトは、請求書と一緒に送信されるファイルを添付するために使用"
+"することができます。添付機能は、請求書のコピーを画像形式（PDFなど）で添付する"
+"ことを意図したものではありません。請求書のコピーを添付することは、本仕様に準"
+"拠しない。"
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/binary.adoc:7
+msgid ""
+"Attachments shall be transmitted together with the Invoice. The binary "
+"object has two supplementary components: a Mime Code, which specifies the "
+"Mime type of the attachment and a Filename that is provided by (or on behalf "
+"of) the sender of the invoice or credit note."
+msgstr ""
+"添付ファイルは，請求書と一緒に送信する必要があります。バイナリオブジェクト"
+"は，添付ファイルの MIME タイプを指定する MIME コードと，請求書、または、クレ"
+"ジットノートの送信者によって（または、その代理として）提供されるファイル名の2"
+"つの補足要素が必要です。"
+
+#. type: Table
+#: guide/transaction-spec/datatypes/binary.adoc:30
+#, no-wrap
+msgid ""
+"|Component\n"
+"|Use\n"
+"|Primitive Type\n"
+"|Example\n"
+"\n"
+"|Content\n"
+"|Mandatory\n"
+"|Binary\n"
+"|QmFzZTY0IGNvbnRlbnQgZXhhbXBsZQ==\n"
+"\n"
+"|Mime Code\n"
+"|Mandatory\n"
+"|String\n"
+"|image/jpeg\n"
+"\n"
+"|Filename\n"
+"|Mandatory\n"
+"|String\n"
+"|drawing5.jpg\n"
+msgstr ""
+"|構成要素\n"
+"|利用\n"
+"|基本データ型\n"
+"|例\n"
+"\n"
+"|内容\n"
+"|必須\n"
+"|バイナリー\n"
+"|QmFzZTY0IGNvbnRlbnQgZXhhbXBsZQ==\n"
+"\n"
+"|MIME コード\n"
+"|必須\n"
+"|文字列\n"
+"|image/jpeg\n"
+"\n"
+"|ファイル名\n"
+"|必須\n"
+"|文字列\n"
+"|drawing5.jpg\n"
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/binary.adoc:33
+msgid ""
+"A receiver of an invoice or credit note, shall accept and process "
+"attachments that are according to the code list <<media-type>>"
+msgstr ""
+"請求書、または、クレジットノートの受信者は、コードリスト [media-type] に従っ"
+"て、添付ファイルを受理し、処理する必要があります。"

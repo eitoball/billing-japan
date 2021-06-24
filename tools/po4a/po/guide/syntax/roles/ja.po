@@ -1,0 +1,180 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: 2021-06-25 17:08+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/syntax/roles.adoc:3
+#, no-wrap
+msgid "Seller (AccountingSupplierParty)"
+msgstr "売り手 (AccountingSupplierParty)"
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:6
+msgid ""
+"Seller is mandatory information and provided in element `cac:"
+"AccountingSupplierParty`"
+msgstr ""
+"売り手は、必須な情報で、 `cac:AccountingSupplierParty` 要素で指定します。"
+
+#. type: Block title
+#: guide/syntax/roles.adoc:7
+#, no-wrap
+msgid "UBL example of seller information"
+msgstr "UBLでの売り手情報の例"
+
+#. type: delimited block - 4
+#: guide/syntax/roles.adoc:11
+#, no-wrap
+msgid "include::{snippet-dir}/Snippet-full.xml[tags=seller]\n"
+msgstr "include::{snippet-dir}/Snippet-full-ja.xml[tags=seller]\n"
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:13 guide/syntax/roles.adoc:28
+msgid ""
+"schemeID attribute is mandatory for electronic addresses, ie. EndpointID"
+msgstr "schemeID 属性は、エンドポイントIDといった電子アドレスには必須です。"
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:14 guide/syntax/roles.adoc:29
+#: guide/syntax/roles.adoc:52
+msgid "schemeID attribute is recommended for all party identifiers"
+msgstr ""
+"schemeID 属性は、全ての関係者の識別子に利用することが推奨されています。"
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:15 guide/syntax/roles.adoc:30
+#: guide/syntax/roles.adoc:64
+msgid "VAT identifiers shall be prefixed with the country code"
+msgstr "付加価値税（VAT）の識別子の前には、国コードを付加する必要があります。"
+
+#. type: Title =
+#: guide/syntax/roles.adoc:18
+#, no-wrap
+msgid "Buyer (AccountingCustomerParty)"
+msgstr "買い手 (AccountingCustomerParty)"
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:21
+msgid ""
+"Buyer is mandatory information and provided in element `cac:"
+"AccountingCustomerParty`"
+msgstr ""
+"買い手は、必須な情報で、 `cac:AccountingCustomerParty` 要素で指定します。"
+
+#. type: Block title
+#: guide/syntax/roles.adoc:22
+#, no-wrap
+msgid "UBL example ofbuyer information"
+msgstr "UBLでの買い手情報の例"
+
+#. type: delimited block - 4
+#: guide/syntax/roles.adoc:26
+#, no-wrap
+msgid "include::{snippet-dir}/Snippet-full.xml[tags=buyer]\n"
+msgstr "include::{snippet-dir}/Snippet-full-ja.xml[tags=buyer]\n"
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:31 guide/syntax/roles.adoc:53
+msgid "schemeID attribute is recommended for party legal entity identifiers"
+msgstr ""
+"schemeID 属性は、全ての関係者の法人識別子に利用することが推奨されています。"
+
+#. type: Title =
+#: guide/syntax/roles.adoc:33
+#, no-wrap
+msgid "Payment receiver (PayeeParty)"
+msgstr "決済受取人 (PayeeParty)"
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:36
+msgid ""
+"Payment receiver is optional information. If this information is not "
+"supplied, the seller is the payment receiver. When payee information is sent "
+"this is indicating that a factoring situation is being documented."
+msgstr ""
+"決済受取人は、任意の情報です。この情報が提供されていない場合、売り手が決済受"
+"取人となります。支払い先情報が、送信される場合は、ファクタリングの状況が文書"
+"化されていることを表しています。"
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:38
+msgid "To reflect the assignment of an Invoice to a factor there is a need to:"
+msgstr ""
+"債権買取者への請求書の譲渡を反映させるためには、以下の条件を満たしている必要"
+"があります:"
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:40
+msgid ""
+"have a disclaimer (notification notice) on the Invoice that the Invoice has "
+"been assigned to a factor. The disclaimer should be given using the Invoice "
+"note (BT-22) on document level."
+msgstr ""
+"請求書に債権買取者へ譲渡されたことを免責事項（通知通知）を記載する。免責条項"
+"は、文書でのノート（BT-22）に記載する必要があります。"
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:42
+msgid "identify the Factor as the Payee"
+msgstr "支払先として債権買取者を指定する。"
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:44
+msgid "to have the bank account changed to favour of a Factor."
+msgstr "債権買取者が指定する銀行口座へ変更する。"
+
+#. type: Block title
+#: guide/syntax/roles.adoc:46
+#, no-wrap
+msgid "UBL example of payee information"
+msgstr "UBLでの決済受取人の例"
+
+#. type: delimited block - 4
+#: guide/syntax/roles.adoc:50
+#, no-wrap
+msgid "include::{snippet-dir}/Snippet-full.xml[tags=payee]\n"
+msgstr "include::{snippet-dir}/Snippet-full-ja.xml[tags=payee]\n"
+
+#. type: Title =
+#: guide/syntax/roles.adoc:55
+#, no-wrap
+msgid "Sellers Tax Representative (TaxRepresentativePary)"
+msgstr "売り手の税務代理人 (TaxRepresentativePary)"
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:58
+msgid ""
+"Tax representative party for the seller is relevant for sellers delivering "
+"goods and services in a country without having a permanent establishment in "
+"that country. In such cases information on the tax representative shall be "
+"included in the invoice."
+msgstr ""
+"その国に恒久的な施設を持たずにその国で商品やサービスを引き渡す売り手の場合に"
+"は、税務代理人が該当します。このような場合には、税務代理人に関する情報を請求"
+"書に記載する必要があります。"
+
+#. type: Block title
+#: guide/syntax/roles.adoc:59
+#, no-wrap
+msgid "UBL example of tax representative information"
+msgstr "UBLでの税務代理人の例"
+
+#. type: delimited block - 4
+#: guide/syntax/roles.adoc:63
+#, no-wrap
+msgid "include::{snippet-dir}/Snippet-full.xml[tags=taxrep]\n"
+msgstr "include::{snippet-dir}/Snippet-full-ja.xml[tags=taxrep]\n"

@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/syntax/roles.adoc:3
+#, no-wrap
+msgid "Seller (AccountingSupplierParty)"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:6
+msgid ""
+"Seller is mandatory information and provided in element `cac:"
+"AccountingSupplierParty`"
+msgstr ""
+
+#. type: Block title
+#: guide/syntax/roles.adoc:7
+#, no-wrap
+msgid "UBL example of seller information"
+msgstr ""
+
+#. type: delimited block - 4
+#: guide/syntax/roles.adoc:11
+#, no-wrap
+msgid "include::{snippet-dir}/Snippet-full.xml[tags=seller]\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:13 guide/syntax/roles.adoc:28
+msgid ""
+"schemeID attribute is mandatory for electronic addresses, ie. EndpointID"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:14 guide/syntax/roles.adoc:29
+#: guide/syntax/roles.adoc:52
+msgid "schemeID attribute is recommended for all party identifiers"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:15 guide/syntax/roles.adoc:30
+#: guide/syntax/roles.adoc:64
+msgid "VAT identifiers shall be prefixed with the country code"
+msgstr ""
+
+#. type: Title =
+#: guide/syntax/roles.adoc:18
+#, no-wrap
+msgid "Buyer (AccountingCustomerParty)"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:21
+msgid ""
+"Buyer is mandatory information and provided in element `cac:"
+"AccountingCustomerParty`"
+msgstr ""
+
+#. type: Block title
+#: guide/syntax/roles.adoc:22
+#, no-wrap
+msgid "UBL example ofbuyer information"
+msgstr ""
+
+#. type: delimited block - 4
+#: guide/syntax/roles.adoc:26
+#, no-wrap
+msgid "include::{snippet-dir}/Snippet-full.xml[tags=buyer]\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:31 guide/syntax/roles.adoc:53
+msgid "schemeID attribute is recommended for party legal entity identifiers"
+msgstr ""
+
+#. type: Title =
+#: guide/syntax/roles.adoc:33
+#, no-wrap
+msgid "Payment receiver (PayeeParty)"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:36
+msgid ""
+"Payment receiver is optional information. If this information is not "
+"supplied, the seller is the payment receiver. When payee information is sent "
+"this is indicating that a factoring situation is being documented."
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:38
+msgid "To reflect the assignment of an Invoice to a factor there is a need to:"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:40
+msgid ""
+"have a disclaimer (notification notice) on the Invoice that the Invoice has "
+"been assigned to a factor. The disclaimer should be given using the Invoice "
+"note (BT-22) on document level."
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:42
+msgid "identify the Factor as the Payee"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:44
+msgid "to have the bank account changed to favour of a Factor."
+msgstr ""
+
+#. type: Block title
+#: guide/syntax/roles.adoc:46
+#, no-wrap
+msgid "UBL example of payee information"
+msgstr ""
+
+#. type: delimited block - 4
+#: guide/syntax/roles.adoc:50
+#, no-wrap
+msgid "include::{snippet-dir}/Snippet-full.xml[tags=payee]\n"
+msgstr ""
+
+#. type: Title =
+#: guide/syntax/roles.adoc:55
+#, no-wrap
+msgid "Sellers Tax Representative (TaxRepresentativePary)"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/roles.adoc:58
+msgid ""
+"Tax representative party for the seller is relevant for sellers delivering "
+"goods and services in a country without having a permanent establishment in "
+"that country. In such cases information on the tax representative shall be "
+"included in the invoice."
+msgstr ""
+
+#. type: Block title
+#: guide/syntax/roles.adoc:59
+#, no-wrap
+msgid "UBL example of tax representative information"
+msgstr ""
+
+#. type: delimited block - 4
+#: guide/syntax/roles.adoc:63
+#, no-wrap
+msgid "include::{snippet-dir}/Snippet-full.xml[tags=taxrep]\n"
+msgstr ""

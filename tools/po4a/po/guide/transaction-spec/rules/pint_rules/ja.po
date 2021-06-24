@@ -1,0 +1,52 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-26 07:03+0900\n"
+"PO-Revision-Date: 2021-06-26 07:03+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/rules/pint_rules.adoc:2
+#, no-wrap
+msgid "Peppol International transaction business rules"
+msgstr "Peppol 国際商取引ルール"
+
+#. type: Plain text
+#: guide/transaction-spec/rules/pint_rules.adoc:6
+msgid ""
+"The following rules have been defined by {openpeppol} to support the Peppol "
+"International model {PiNT}.  These rules apply in *all* profiles that use "
+"this transaction specification."
+msgstr ""
+"以下のルールは、 Peppol 国際モデル {PiNT} をサポートするために {openpeppol} "
+"によって定義されています。 これらのルールは、本取引仕様を使用する *すべての* "
+"プロファイルで適用されます。"
+
+#. type: Block title
+#: guide/transaction-spec/rules/pint_rules.adoc:7
+#, no-wrap
+msgid "Peppol transaction business rules"
+msgstr "Peppol 商取引ルール"
+
+#. type: Table
+#: guide/transaction-spec/rules/pint_rules.adoc:13
+#, no-wrap
+msgid ""
+"|Rule\n"
+"|Message/Context/Test\n"
+"\n"
+msgstr ""
+"|ルール\n"
+"|文言/内容/検証ルール\n"
+"\n"

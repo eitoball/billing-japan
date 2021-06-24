@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-25 12:42+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/transaction-spec/principles/benefits.adoc:2
+#, no-wrap
+msgid "Benefits"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:6
+msgid ""
+"The invoice and credit note provides simple support for complex invoicing, "
+"where there is a need for credit note in addition to an invoice. Other "
+"potential benefits are, among others:"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:8
+msgid ""
+"Can be mandated as a basis for national or regional eInvoicing initiatives."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:9
+msgid ""
+"Procurement agencies can use them as basis for moving all invoices into "
+"electronic form. The flexibility of the specifications allows the buyers to "
+"automate processing of invoices gradually, based on different sets of "
+"identifiers or references, based on a cost/benefit approach."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:10
+msgid ""
+"SME can offer their trading partners the option of exchanging standardised "
+"documents in a uniform way and thereby move all invoices/credit notes into "
+"electronic form."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:11
+msgid ""
+"Large companies can implement these transactions as standardised documents "
+"for general operations and implement custom designed bi-lateral connections "
+"for large trading partners."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:12
+msgid "Supports customers with need for more complex interactions."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:13
+msgid ""
+"Can be used as basis for restructuring of in-house processes of invoices."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:13
+msgid ""
+"Significant saving can be realised by the procuring agency by automating and "
+"streamlining in-house processing. The accounting can be automated "
+"significantly, approval processes simplified and streamlined, payment "
+"scheduled timely and auditing automated."
+msgstr ""

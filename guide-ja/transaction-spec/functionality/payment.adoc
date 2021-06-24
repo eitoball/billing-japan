@@ -1,0 +1,9 @@
+
+= 支払い
+
+請求書は、支払いの請求を表します。請求書の発行は、支払いが行われる前または後に行うことができます。請求書が支払い前に発行される場合、それは購入者への支払い要求を表します。この場合、請求書には通常、債務者の役割で購入者が支払いの転送を正しく開始できるようにする情報が含まれています。以前の契約で、または購入者に別途提出された支払い指示によってすでに合意されています。
+
+注文プロセスに支払い指示が含まれている場合や、クレジットカードでの支払い、オンラインまたは電話での購入など、支払い後に請求書が発行される場合、請求書には、購入者の請求書と支払いの調整を容易にするために行われた支払いに関する情報が含まれる場合があります。側。請求書は、注文を確認するために前払いが行われる場合など、発行前に部分的に支払われる場合があります。
+
+Invoices, conformant with this specification should identify the means of payment for settlement of the invoice and clearly state what payment amount is requested. They should provide necessary details to support bank transfers. Payments by means of Credit Transfer, Direct debit, and Payment Card are in scope.
+

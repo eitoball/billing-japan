@@ -1,0 +1,50 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: 2021-06-25 14:12+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/functionality/intro.adoc:7
+#: guide/transaction-spec/functionality/accounting.adoc:2
+#, no-wrap
+msgid "Accounting"
+msgstr "会計処理"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/accounting.adoc:5
+#, fuzzy
+#| msgid ""
+#| "Recording a business transaction into the financial accounts of an "
+#| "organization is one of the main objectives of the invoice. According to "
+#| "financial accounting best practice and VAT rules every Taxable person "
+#| "shall keep accounts in sufficient detail for VAT to be applied and its "
+#| "application checked by the tax authorities. For that reason, an invoice "
+#| "shall provide for the information at document and line level that enables "
+#| "booking on both the debit and the credit side."
+msgid ""
+"Recording a business transaction into the financial accounts of an "
+"organization is one of the main objectives of the invoice. According to "
+"financial accounting best practice and CT rules every Taxable person shall "
+"keep accounts in sufficient detail for CT to be applied and its application "
+"checked by the tax authorities. For that reason, an invoice shall provide "
+"for the information at document and line level that enables booking on both "
+"the debit and the credit side."
+msgstr ""
+"組織の財務勘定に商取引を記録することが、請求書の主な目的の1つです。 財務会計"
+"のベストプラクティスと付加価値税 (VAT) 規則に従って、すべての課税対象者は、付"
+"加価値税が適用され、その適用が税務当局によって監査されるように、アカウントを"
+"十分に詳細に保持する必要があります。 そのため、請求書には、借方と貸方の両方で"
+"文書や明細単位での記帳に関する情報が記載されている必要があります。"

@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-28 22:14+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Table
+#: guide/transaction-spec/datatypes/price.adoc:20
+#: guide/transaction-spec/datatypes/quantities.adoc:19
+#, no-wrap
+msgid ""
+"|Component\n"
+"|Use\n"
+"|Primitive Type\n"
+"|Example\n"
+"\n"
+"|Content\n"
+"|Mandatory\n"
+"|Decimal\n"
+"|10000.1234\n"
+msgstr ""
+
+#. type: Title =
+#: guide/transaction-spec/datatypes/quantities.adoc:2
+#, no-wrap
+msgid "Quantity"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/quantities.adoc:5
+msgid ""
+"Quantities are used to state a number of units such as for items. The code "
+"for the Unit of Measure is defined as a separate business term."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/quantities.adoc:7
+msgid "No restriction on number of decimals for quantities."
+msgstr ""

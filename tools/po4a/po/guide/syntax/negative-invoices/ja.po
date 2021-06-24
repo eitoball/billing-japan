@@ -1,0 +1,145 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: 2021-06-25 23:02+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Block title
+#: guide/syntax/negative-invoices.adoc:3
+#, no-wrap
+msgid "UBL example of invoice to be corrected"
+msgstr "金額訂正をしている請求書の UBL での例"
+
+#. type: delimited block - 4
+#: guide/syntax/negative-invoices.adoc:7
+#, no-wrap
+msgid "include::{snippet-dir}/base-example.xml[tags=negative]\n"
+msgstr "include::{snippet-dir}/ja/base-example.xml[tags=negative]\n"
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:9 guide/syntax/negative-invoices.adoc:23
+msgid "Charge amount"
+msgstr "手数料"
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:10
+#: guide/syntax/negative-invoices.adoc:24
+msgid "Invoice line 1 with positive quantity and line amount"
+msgstr "正の数量と単価の請求明細1行目"
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:11
+#: guide/syntax/negative-invoices.adoc:25
+msgid "Invoice line 2 with negative quantity and line amount"
+msgstr "負の数量と単価の請求明細2行目"
+
+#. type: Title ==
+#: guide/syntax/negative-invoices.adoc:12
+#, no-wrap
+msgid "When crediting by means of credit note"
+msgstr "信用手形で掛け売りをする場合"
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:15
+msgid ""
+"The function of crediting or debiting is controlled merely by the business "
+"document type (e.g. 380 or 381) while the representation of the amount, "
+"including its sign, is not affected."
+msgstr ""
+"貸方、または、借方の機能は、（例えば、380 や 381 といった）ビジネス文書の種類"
+"によってのみ制御されます。種類によって合計金額の符号は影響されません。"
+
+#. type: Block title
+#: guide/syntax/negative-invoices.adoc:16
+#, no-wrap
+msgid "UBL example of credit note correcting the example invoice above"
+msgstr "上の例の請求書を訂正する信用手形の UBL での例"
+
+#. type: delimited block - 4
+#: guide/syntax/negative-invoices.adoc:20
+#, no-wrap
+msgid "include::{snippet-dir}/base-creditnote-correction.xml[tags=negative]\n"
+msgstr "include::{snippet-dir}/ja/base-creditnote-correction.xml[tags=negative]\n"
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:22
+msgid "Code 381 indicating a credit note"
+msgstr "381 は信用手形を表す"
+
+#. type: Title ==
+#: guide/syntax/negative-invoices.adoc:26
+#, no-wrap
+msgid "When crediting by means of negative invoice"
+msgstr "ネガティブ請求書で請求する場合"
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:29
+msgid ""
+"The function of crediting or debiting is controlled merely by the sign (i.e. "
+"plus sign or minus sign) of the amount concerned, while the business "
+"document type (e.g. 380) has no relevance on the operation (“to credit”) "
+"itself."
+msgstr ""
+"貸方、または、借方の機能は、請求金額の符号（つまり、正、または、負）によって"
+"のみ制御されますが、ビジネス文書の種類（例えば、380）は、操作（「貸方」）自体"
+"とは関係ありません。"
+
+#. type: Block title
+#: guide/syntax/negative-invoices.adoc:30
+#, no-wrap
+msgid "UBL example of negative invoice correcting the example invoice above"
+msgstr "上の例の請求書を訂正するネガティブ請求書の UBL での例"
+
+#. type: delimited block - 4
+#: guide/syntax/negative-invoices.adoc:34
+#, no-wrap
+msgid "include::{snippet-dir}/base-negative-inv-correction.xml[tags=negative]\n"
+msgstr "include::{snippet-dir}/ja/base-negative-inv-correction.xml[tags=negative]\n"
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:36
+msgid "Code 380 indicating an invoice"
+msgstr "380 は請求書を表す"
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:37
+msgid "Charge amount is negative to correct the original invoice"
+msgstr "元の請求書を修正するための負の小計"
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:38
+msgid "All document level amounts are negative"
+msgstr "全ての文書レベルでの合計は負になっています"
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:39
+msgid ""
+"Invoice line 1 with originally positive quantity and line amount, now both "
+"negative"
+msgstr ""
+"元の請求書では正の数量と単価であった請求明細1行目は両方とも負となっている"
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:40
+msgid "Price amount must always be positive, and is not changed"
+msgstr "単価は常に正である必要があり、変更はなし"
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:40
+msgid ""
+"Invoice line 2 with originally negative quantity and line amount, now "
+"positive"
+msgstr ""
+"元の請求書では負の数量と単価であった請求明細2行目は両方とも正となっている"

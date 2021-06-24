@@ -1,0 +1,20 @@
+
+[appendix]
+= PINT における制限
+
+以下には {PINT} における制限の一覧です。
+
+全ての制限は、 {PINT} 仕様の範囲内です。
+
+:leveloffset: +1
+
+include::../../profile/annex/restricted-elements.adoc[]
+
+include::../../transaction-spec/annex/restricted-elements.adoc[]
+
+include::../../profile/annex/processes.adoc[]
+
+include::../../profile/annex/known-issues.adoc[]
+
+
+:leveloffset: -1

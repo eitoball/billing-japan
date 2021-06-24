@@ -1,0 +1,96 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-25 12:42+0900\n"
+"PO-Revision-Date: 2021-06-25 12:42+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/principles/benefits.adoc:2
+#, no-wrap
+msgid "Benefits"
+msgstr "利点"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:6
+msgid ""
+"The invoice and credit note provides simple support for complex invoicing, "
+"where there is a need for credit note in addition to an invoice. Other "
+"potential benefits are, among others:"
+msgstr ""
+"請求書と信用手形取引は、請求書に加えて信用手形取引が必要な場合など複雑な請求"
+"作業への単純なサポートを提供します。その他、次のような潜在的な利点があります:"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:8
+msgid ""
+"Can be mandated as a basis for national or regional eInvoicing initiatives."
+msgstr ""
+"国や地域の電子インボイスへの取り組みの基礎として義務付けることができます。"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:9
+msgid ""
+"Procurement agencies can use them as basis for moving all invoices into "
+"electronic form. The flexibility of the specifications allows the buyers to "
+"automate processing of invoices gradually, based on different sets of "
+"identifiers or references, based on a cost/benefit approach."
+msgstr ""
+"調達機関は、すべての請求書を電子化するための基礎として使用することができま"
+"す。仕様の柔軟性により、購入者は、費用や利点の観点からや、異なる識別子や参照"
+"先のセットの観点から、請求書の処理を徐々に自動化することができます。"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:10
+msgid ""
+"SME can offer their trading partners the option of exchanging standardised "
+"documents in a uniform way and thereby move all invoices/credit notes into "
+"electronic form."
+msgstr ""
+"中小企業は、標準化されたドキュメントを統一された方法で交換するオプションを取"
+"引先に提供し、それによってすべての請求書や信用手形取引を電子形式に移行するこ"
+"とができます。"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:11
+msgid ""
+"Large companies can implement these transactions as standardised documents "
+"for general operations and implement custom designed bi-lateral connections "
+"for large trading partners."
+msgstr ""
+"大企業は、一般業務での標準化文書としてこれらの商取引や大規模な取引先専用の双"
+"方向の接続を実装することができます。"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:12
+msgid "Supports customers with need for more complex interactions."
+msgstr "より複雑なやり取りが必要なお客様をサポートします。"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:13
+msgid ""
+"Can be used as basis for restructuring of in-house processes of invoices."
+msgstr "請求書の社内プロセスの再構築の基礎として使用することができます。"
+
+#. type: Plain text
+#: guide/transaction-spec/principles/benefits.adoc:13
+msgid ""
+"Significant saving can be realised by the procuring agency by automating and "
+"streamlining in-house processing. The accounting can be automated "
+"significantly, approval processes simplified and streamlined, payment "
+"scheduled timely and auditing automated."
+msgstr ""
+"社内処理を自動化および合理化することにより、調達機関は大幅な節約を実現するこ"
+"とができます。会計処理は大幅に自動化され、承認処理は簡素化および合理化され、"
+"支払い処理は適宜予定に入り、監査処理は自動化されます。"

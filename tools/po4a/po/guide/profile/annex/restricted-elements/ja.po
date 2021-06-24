@@ -1,0 +1,66 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-01 00:46+0900\n"
+"PO-Revision-Date: 2021-06-25 16:08+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/profile/annex/restricted-elements.adoc:2
+#, no-wrap
+msgid "Restrictions for profile 01 - Billing"
+msgstr "プロファイル 01 - 請求での制限"
+
+#. type: Table
+#: guide/profile/annex/restricted-elements.adoc:20
+#, fuzzy, no-wrap
+#| msgid ""
+#| "| BT-ID\n"
+#| "| Business Term\n"
+#| "| Restrition Type\n"
+#| "| Description\n"
+#| "| Rule\n"
+#| "\n"
+#| "| BT-3\n"
+#| "| Invoice type code\n"
+#| "| Mark defined values as not allowed\n"
+#| "| Allowed set of values can be found in <<Invoice Type Code>>\n"
+#| "| \n"
+#| "\n"
+msgid ""
+"| BT-ID\n"
+"| Business Term\n"
+"| Restrition Type\n"
+"| Description\n"
+"| Rule\n"
+"\n"
+"| BT-3\n"
+"| Invoice type code\n"
+"| Mark defined values as not allowed\n"
+"| Allowed set of values can be found in <<Invoice Type Code>>\n"
+"| \n"
+"\n"
+msgstr ""
+"| ビジネス用語ID\n"
+"| ビジネス用語\n"
+"| 制限のタイプ\n"
+"| 説明\n"
+"| ルール\n"
+"\n"
+"| BT-3\n"
+"| 請求書タイプコード\n"
+"| 定義されている値の使用禁止\n"
+"| 許可されている値の一覧は <<Invoice Type Code>> に記載されています。\n"
+"| \n"
+"\n"

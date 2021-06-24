@@ -1,0 +1,58 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-28 22:14+0900\n"
+"PO-Revision-Date: 2021-06-28 22:14+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/datatypes/text.adoc:2
+#, no-wrap
+msgid "Text"
+msgstr "テキスト"
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/text.adoc:5
+msgid ""
+"Text is the actual wording of anything written or printed. Line breaks in "
+"the text may be present, and any line breaks should be preserved and "
+"respected by the receiver’s system"
+msgstr ""
+"テキストとは、書かれたものや印刷されたものの実際の表現のことです。テキストの"
+"中に改行がある場合がありますが、改行は受信側のシステムで保存され、尊重される"
+"べきです。"
+
+#. type: Table
+#: guide/transaction-spec/datatypes/text.adoc:18
+#, no-wrap
+msgid ""
+"|Component\n"
+"|Use\n"
+"|Primitive Type\n"
+"|Example\n"
+"\n"
+"|Content\n"
+"|Mandatory\n"
+"|String\n"
+"|5% allowance when paid within 30 days\n"
+msgstr ""
+"|構成要素\n"
+"|利用\n"
+"|基本データ型\n"
+"|例\n"
+"\n"
+"|内容\n"
+"|必須\n"
+"|文字列\n"
+"|30日以内での支払い完了で5％割引\n"

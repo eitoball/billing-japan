@@ -1,0 +1,81 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-28 22:14+0900\n"
+"PO-Revision-Date: 2021-06-28 22:14+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/datatypes/identifier.adoc:2
+#, no-wrap
+msgid "Identifier"
+msgstr "識別子"
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/identifier.adoc:5
+msgid ""
+"Identifiers (IDs) are keys that are issued by the sender or recipient of a "
+"document or by a third party."
+msgstr ""
+"識別子（ID）とは、文書の送信者や受信者、または第三者が発行するキーとなりま"
+"す。"
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/identifier.adoc:8
+msgid "The use of the attributes is specified for each information element."
+msgstr "属性の使用は、情報要素ごとに指定されます。"
+
+#. type: Table
+#: guide/transaction-spec/datatypes/identifier.adoc:31
+#, no-wrap
+msgid ""
+"|Component\n"
+"|Use\n"
+"|Primitive Type\n"
+"|Example\n"
+"\n"
+"|Content\n"
+"|Mandatory\n"
+"|String\n"
+"|abc:123-DEF\n"
+"\n"
+"|Scheme identifier\n"
+"|Conditional\n"
+"|String\n"
+"|GLN\n"
+"\n"
+"|Scheme version identifier\n"
+"|Conditional\n"
+"|String\n"
+"|1.0\n"
+msgstr ""
+"|構成要素\n"
+"|利用\n"
+"|基本データ型\n"
+"|例\n"
+"\n"
+"|内容\n"
+"|必須\n"
+"|文字列\n"
+"|abc:123-DEF\n"
+"\n"
+"|スキーマ識別子\n"
+"|条件付き\n"
+"|文字列\n"
+"|GLN\n"
+"\n"
+"|スキーマバージョン識別子\n"
+"|条件付き\n"
+"|文字列\n"
+"|1.0\n"

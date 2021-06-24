@@ -1,0 +1,47 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-25 22:48+0900\n"
+"PO-Revision-Date: 2021-06-25 22:48+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/functionality/vat-reporting.adoc:2
+#, no-wrap
+msgid "Tax Reporting"
+msgstr "税申告"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/vat-reporting.adoc:5
+msgid ""
+"The invoice is used to carry Tax related information from the Seller to the "
+"Buyer to enable the Buyer and Seller to correctly handle Tax booking and "
+"reporting. An invoice should contain sufficient information to enable the "
+"Buyer and any auditor to determine whether the invoice is correct from a Tax "
+"point of view."
+msgstr ""
+"請求書は、税関連情報を売り手から買い手に伝えるために使用され、買い手と売り手"
+"が付加価値税の記帳と報告を正しく処理できるようにします。 請求書には、バイヤー"
+"と監査人がVATの観点から請求書が正しいかどうかを判断できるようにするための十分"
+"な情報が含まれている必要があります。"
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/vat-reporting.adoc:7
+msgid ""
+"The invoice shall allow the determination of the Tax regime, the calculation "
+"and description of the tax, in accordance with the {Tax-dir} and subsequent "
+"amendments."
+msgstr ""
+"請求書は、 {Tax-dir} 、および、その後の修正に従って、税制度の決定、税の計算お"
+"よび説明を許可するものとします。"

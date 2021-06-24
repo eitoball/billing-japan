@@ -1,0 +1,18 @@
+= 金額
+
+金額とは、貨幣価値を数値で表したものです。金額の通貨は別のビジネス用語として定義されています。
+
+IMPORTANT:Amounts in JPY have no fraction digits.
+
+[cols="1s,1,1,1", options="header"]
+|===
+|Component
+|Use
+|Primitive Type
+|Example
+
+|Content
+|Mandatory
+|Decimal
+|10000
+|===

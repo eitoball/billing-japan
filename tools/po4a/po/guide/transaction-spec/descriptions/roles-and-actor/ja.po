@@ -1,0 +1,38 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-25 17:04+0900\n"
+"PO-Revision-Date: 2021-06-25 17:04+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/principles/roles.adoc:11
+#: guide/transaction-spec/descriptions/roles-and-actor.adoc:2
+#, no-wrap
+msgid "Parties"
+msgstr "関係者"
+
+#. type: Plain text
+#: guide/transaction-spec/descriptions/roles-and-actor.adoc:5
+msgid ""
+"The following roles may be specified. The same actor may play more than one "
+"role depending on the handling routine."
+msgstr ""
+"以下に示す役割を指定することができます。処理内容によっては、同じ人がが複数の"
+"役割を務める場合があります。"
+
+#. type: Plain text
+#: guide/transaction-spec/descriptions/roles-and-actor.adoc:7
+msgid "Further details on the roles/actors can be found in <<roles>>."
+msgstr "役割/参加者の詳細については、 <<roles>> を参照してください。"

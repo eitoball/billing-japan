@@ -1,0 +1,9 @@
+
+= プロファイルとメッセージ [[profiles]]
+
+すべてのメッセージには、 ProfileID と CustomizationID が含まれています。 ProfileID は、与えられたメッセージがどのようなビジネスプロセスの一部であるかを識別し、 CustomizationID は、メッセージの種類と適用されるルールを識別します。
+
+プロファイルは、一つのビジネスプロセスに接続され、複数の文書タイプを含むことができます。有効な文書インスタンスには、対応する ProfileID と CustomizationID を含んでいる必要があります。
+
+
+IMPORTANT: CustomizationID はスペースを除いた文字列です。以下のリストでは、読みやすくするために CustomizationID にスペースを入れています。 *必ずスペースを削除してから使用してください。*

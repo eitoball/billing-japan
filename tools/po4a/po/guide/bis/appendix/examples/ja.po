@@ -1,0 +1,46 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-25 14:48+0900\n"
+"PO-Revision-Date: 2021-06-25 14:48+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/bis/appendix/examples.adoc:3
+#, no-wrap
+msgid "Example files"
+msgstr "サンプルファイル"
+
+#. type: Plain text
+#: guide/bis/appendix/examples.adoc:6
+msgid ""
+"The example files are published on GitHub. In addition, several example "
+"files have been developed in order to extract snippets into this guide. You "
+"might freely use them, but be aware that they include several comments used "
+"to extract the snippets."
+msgstr ""
+"サンプルファイルは GitHub で公開されています。また、このガイドにスニペットを"
+"抽出するために、いくつかのサンプルファイルを作成しています。これらを自由に"
+"使っても構いませんが、スニペットを抽出するためのコメントがいくつか含まれてい"
+"ることに注意してください。"
+
+#. type: Plain text
+#: guide/bis/appendix/examples.adoc:8
+msgid "{link-examples}"
+msgstr "{link-examples}"
+
+#. type: Plain text
+#: guide/bis/appendix/examples.adoc:8
+msgid "{link-snippets}"
+msgstr "{link-snippets}"

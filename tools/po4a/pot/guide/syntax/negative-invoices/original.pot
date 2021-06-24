@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Block title
+#: guide/syntax/negative-invoices.adoc:3
+#, no-wrap
+msgid "UBL example of invoice to be corrected"
+msgstr ""
+
+#. type: delimited block - 4
+#: guide/syntax/negative-invoices.adoc:7
+#, no-wrap
+msgid "include::{snippet-dir}/base-example.xml[tags=negative]\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:9 guide/syntax/negative-invoices.adoc:23
+msgid "Charge amount"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:10
+#: guide/syntax/negative-invoices.adoc:24
+msgid "Invoice line 1 with positive quantity and line amount"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:11
+#: guide/syntax/negative-invoices.adoc:25
+msgid "Invoice line 2 with negative quantity and line amount"
+msgstr ""
+
+#. type: Title ==
+#: guide/syntax/negative-invoices.adoc:12
+#, no-wrap
+msgid "When crediting by means of credit note"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:15
+msgid ""
+"The function of crediting or debiting is controlled merely by the business "
+"document type (e.g. 380 or 381) while the representation of the amount, "
+"including its sign, is not affected."
+msgstr ""
+
+#. type: Block title
+#: guide/syntax/negative-invoices.adoc:16
+#, no-wrap
+msgid "UBL example of credit note correcting the example invoice above"
+msgstr ""
+
+#. type: delimited block - 4
+#: guide/syntax/negative-invoices.adoc:20
+#, no-wrap
+msgid "include::{snippet-dir}/base-creditnote-correction.xml[tags=negative]\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:22
+msgid "Code 381 indicating a credit note"
+msgstr ""
+
+#. type: Title ==
+#: guide/syntax/negative-invoices.adoc:26
+#, no-wrap
+msgid "When crediting by means of negative invoice"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:29
+msgid ""
+"The function of crediting or debiting is controlled merely by the sign (i.e. "
+"plus sign or minus sign) of the amount concerned, while the business "
+"document type (e.g. 380) has no relevance on the operation (“to credit”) "
+"itself."
+msgstr ""
+
+#. type: Block title
+#: guide/syntax/negative-invoices.adoc:30
+#, no-wrap
+msgid "UBL example of negative invoice correcting the example invoice above"
+msgstr ""
+
+#. type: delimited block - 4
+#: guide/syntax/negative-invoices.adoc:34
+#, no-wrap
+msgid "include::{snippet-dir}/base-negative-inv-correction.xml[tags=negative]\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:36
+msgid "Code 380 indicating an invoice"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:37
+msgid "Charge amount is negative to correct the original invoice"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:38
+msgid "All document level amounts are negative"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:39
+msgid ""
+"Invoice line 1 with originally positive quantity and line amount, now both "
+"negative"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:40
+msgid "Price amount must always be positive, and is not changed"
+msgstr ""
+
+#. type: Plain text
+#: guide/syntax/negative-invoices.adoc:40
+msgid ""
+"Invoice line 2 with originally negative quantity and line amount, now "
+"positive"
+msgstr ""

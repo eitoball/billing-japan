@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-26 07:25+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/transaction-spec/validation/validation-principles.adoc:1
+#, no-wrap
+msgid "Validation Principles"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:4
+msgid "Stages in the validation process:"
+msgstr ""
+
+#. type: Labeled list
+#: guide/transaction-spec/validation/validation-principles.adoc:5
+#, no-wrap
+msgid "Validation of syntax"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:7
+msgid "For example:"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:8
+msgid "Check well-formedness"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:9
+msgid ""
+"Tag names and attributes shall be correctly written and follow the UBL 2.1 "
+"sequence"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:10
+msgid "All UBL 2.1 mandatory elements shall be present."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:11
+msgid ""
+"The element’s contents shall be according to the element’s type definition."
+msgstr ""
+
+#. type: Labeled list
+#: guide/transaction-spec/validation/validation-principles.adoc:12
+#, no-wrap
+msgid "Validation against {EN16931}"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:14
+msgid ""
+"To verify that the instance message is compliant to the european standard, "
+"like:"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:15
+msgid "Valid codes for currencies, countries, tax etc."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:16
+msgid "Mandatory elements according to {EN16931}."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:17
+msgid ""
+"Logical correlations between information element, i.e. that start date is "
+"lower than or equal to end date, calculations give the correct result etc."
+msgstr ""
+
+#. type: Labeled list
+#: guide/transaction-spec/validation/validation-principles.adoc:18
+#, no-wrap
+msgid "CIUS - General rules"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:20
+msgid ""
+"General rule that applies to all invoices and are triggered by the existence "
+"of one or more specific business term(s)."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:23
+#, no-wrap
+msgid ""
+"*Example rule text* +\n"
+"_An invoice shall have a buyers reference *or* an order reference_\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:26
+#, no-wrap
+msgid ""
+"*Context that triggers the rule* +\n"
+"_Existence of either Buyer reference (BT-10) *OR* Purchased order reference (BT-13)_\n"
+msgstr ""
+
+#. type: Labeled list
+#: guide/transaction-spec/validation/validation-principles.adoc:27
+#, no-wrap
+msgid "CIUS - Country qualified validation rules"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:29
+msgid ""
+"Applies only for invoices issued in a specific country. The rule is "
+"triggered by the given country code of the seller (BT-40)."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:31
+#, no-wrap
+msgid ""
+"*Example rule text* +\n"
+"_When the Seller is Swedish, the Legal Registration Number shall be numeric with 10 digits._\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/validation/validation-principles.adoc:33
+#, no-wrap
+msgid ""
+"*Context that triggers the rule* +\n"
+"_Existence of Seller/Address/CountryCode=‘SE’ *AND* existence of \vSeller/LegalRegistrationNumber_\n"
+msgstr ""

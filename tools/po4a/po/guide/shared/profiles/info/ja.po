@@ -1,0 +1,57 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-28 21:23+0900\n"
+"PO-Revision-Date: 2021-06-28 21:23+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/shared/profiles/info.adoc:2
+#, no-wrap
+msgid "Profiles and messages [[profiles]]"
+msgstr "プロファイルとメッセージ [[profiles]]"
+
+#. type: Plain text
+#: guide/shared/profiles/info.adoc:5
+msgid ""
+"All messages contains ProfileID and CustomizationID. ProfileID identifies "
+"what business process a given message is part of, and CustomizationID "
+"identifies the kind of message and the rules applied."
+msgstr ""
+"すべてのメッセージには、 ProfileID と CustomizationID が含まれています。 "
+"ProfileID は、与えられたメッセージがどのようなビジネスプロセスの一部であるか"
+"を識別し、 CustomizationID は、メッセージの種類と適用されるルールを識別しま"
+"す。"
+
+#. type: Plain text
+#: guide/shared/profiles/info.adoc:7
+msgid ""
+"Profiles are connected to one business process, and may contain multiple "
+"document types. Valid document instances shall contain corresponding "
+"ProfileID and CustomizationID."
+msgstr ""
+"プロファイルは、一つのビジネスプロセスに接続され、複数の文書タイプを含むこと"
+"ができます。有効な文書インスタンスには、対応する ProfileID と "
+"CustomizationID を含んでいる必要があります。"
+
+#. type: Plain text
+#: guide/shared/profiles/info.adoc:9
+msgid ""
+"CustomizationID is a string without spaces. The list below contains spaces "
+"in CustomizationID to make them easier to read. *Make sure to remove any "
+"spaces before use.*"
+msgstr ""
+"CustomizationID はスペースを除いた文字列です。以下のリストでは、読みやすくす"
+"るために CustomizationID にスペースを入れています。 *必ずスペースを削除してか"
+"ら使用してください。*"

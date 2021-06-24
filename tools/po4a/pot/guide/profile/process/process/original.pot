@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-25 13:40+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/profile/process/process.adoc:2
+#, no-wrap
+msgid "General invoicing process"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:5
+msgid ""
+"The invoicing process includes issuing and sending the invoice and the "
+"credit note from the supplier to the customer and the reception and handling "
+"of the same at the customer’s site."
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:7
+msgid "The invoicing process is shown in this work flow:"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:9
+msgid ""
+"A supplier issues and sends an invoice to a customer. The invoice refers to "
+"one order and a specification of delivered goods and services."
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:11
+msgid ""
+"An invoice may also refer to a contract or a frame agreement. The invoice "
+"may specify articles (goods and services) with article number or article "
+"description."
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:13
+msgid ""
+"The customer receives the invoice and processes it in the invoice control "
+"system leading to one of the following results:"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:14
+msgid ""
+"The customer fully approves the invoice, posts it in the accounting system "
+"and passes it on to be paid."
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:15
+msgid ""
+"The customer completely rejects the invoice, contacts the supplier and "
+"requests a credit note."
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:16
+msgid ""
+"The customer disputes parts of the invoice, contacts the supplier and "
+"requests a credit note and a new invoice."
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:18
+msgid ""
+"The diagram below shows the basic invoicing process with the use of this "
+"PEPPOL BIS profile. This process assumes that both the invoice and the "
+"credit note are exchanged electronically."
+msgstr ""
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: guide/profile/process/process.adoc:19
+#, no-wrap
+msgid "The invoicing process"
+msgstr ""
+
+#. type: Target for macro image
+#: guide/profile/process/process.adoc:19
+#, no-wrap
+msgid "../shared/images/process.png"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:22
+msgid "This profile covers the following invoice processes:"
+msgstr ""
+
+#. type: Labeled list
+#: guide/profile/process/process.adoc:25
+#, no-wrap
+msgid "P1"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:26
+msgid ""
+"Invoicing of deliveries of goods and services against purchase orders, based "
+"on a contract"
+msgstr ""
+
+#. type: Labeled list
+#: guide/profile/process/process.adoc:26
+#, no-wrap
+msgid "P2"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:27
+msgid "Invoicing deliveries of goods and services based on a contract"
+msgstr ""
+
+#. type: Labeled list
+#: guide/profile/process/process.adoc:27
+#, no-wrap
+msgid "P3"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:28
+msgid "Invoicing the delivery of an incidental purchase order"
+msgstr ""
+
+#. type: Labeled list
+#: guide/profile/process/process.adoc:28
+#, no-wrap
+msgid "P4"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:29
+msgid "Pre-payment"
+msgstr ""
+
+#. type: Labeled list
+#: guide/profile/process/process.adoc:29
+#, no-wrap
+msgid "P5"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:30
+msgid "Spot payment"
+msgstr ""
+
+#. type: Labeled list
+#: guide/profile/process/process.adoc:30
+#, no-wrap
+msgid "P6"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:31
+msgid "Payment in advance of delivery"
+msgstr ""
+
+#. type: Labeled list
+#: guide/profile/process/process.adoc:31
+#, no-wrap
+msgid "P7"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:32
+msgid "Invoices with references to a despatch advice"
+msgstr ""
+
+#. type: Labeled list
+#: guide/profile/process/process.adoc:32
+#, no-wrap
+msgid "P8"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:33
+msgid "Invoices with references to a despatch advice and a receiving advice"
+msgstr ""
+
+#. type: Labeled list
+#: guide/profile/process/process.adoc:33
+#, no-wrap
+msgid "P9"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/process/process.adoc:33
+msgid ""
+"Credit notes or invoices with negative amounts, issued for a variety of "
+"reasons including the return of empty packaging"
+msgstr ""

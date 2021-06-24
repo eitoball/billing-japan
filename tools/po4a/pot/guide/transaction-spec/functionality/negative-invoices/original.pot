@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/transaction-spec/functionality/negative-invoices.adoc:2
+#, no-wrap
+msgid "Negative invoices and credit notes"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:6
+msgid "This BIS supports negative grand totals."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:8
+msgid ""
+"The argument for negative invoices is to open up for a wider spectrum of "
+"invoicing processes."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:10
+msgid "Examples of such processes are"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:12
+msgid ""
+"Preliminary (estimated) consumption invoice that is balanced out in a later "
+"meter-based invoice;"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:13
+msgid ""
+"Pre-payment (with or without CT) is settled through a final invoice; and"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:14
+msgid ""
+"Some user communities prefer to use negative invoice rather than credit note "
+"when correcting transactions."
+msgstr ""
+
+#. type: delimited block = 4
+#: guide/transaction-spec/functionality/negative-invoices.adoc:17
+msgid ""
+"Buyers who value automatic matching of e-invoices to orders or invoicing "
+"objects may wish to limit the areas and situations where complex "
+"transactions can be accepted and voice their requirements at time of "
+"procurement."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:20
+msgid "The decision has the following implications on the transaction format:"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:22
+msgid ""
+"The invoice (now with “negative invoice capacity”) can function as an "
+"alternative to the credit note. Invoice-generating systems may implement "
+"either option, while invoice-receiving systems have to support both of them."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:23
+msgid ""
+"The transaction format for credit note has to be designed to accommodate for "
+"negative grand total, as well; this is because an entire negative invoice "
+"may have to be balanced out by means of a credit note."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/negative-invoices.adoc:25
+msgid ""
+"Attention is drawn to the intrinsic differences between credit note and "
+"negative invoice when it comes to convey crediting information."
+msgstr ""

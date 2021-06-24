@@ -1,0 +1,73 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: 2021-06-28 22:14+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/datatypes/amount.adoc:1
+#, no-wrap
+msgid "Amount"
+msgstr "金額"
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/amount.adoc:4
+msgid ""
+"An amount states a numerical monetary value. The currency of the amount is "
+"defined as a separate business term."
+msgstr ""
+"金額とは、貨幣価値を数値で表したものです。金額の通貨は別のビジネス用語として"
+"定義されています。"
+
+#. type: Plain text
+#: guide/transaction-spec/datatypes/amount.adoc:6
+#, fuzzy
+#| msgid "Amount is floating up to two fraction digits."
+msgid "IMPORTANT:Amounts in JPY have no fraction digits."
+msgstr "金額は端数2桁までの浮動小数点となります。"
+
+#. type: Table
+#: guide/transaction-spec/datatypes/amount.adoc:18
+#, fuzzy, no-wrap
+#| msgid ""
+#| "|Component\n"
+#| "|Use\n"
+#| "|Primitive Type\n"
+#| "|Example\n"
+#| "\n"
+#| "|Content\n"
+#| "|Mandatory\n"
+#| "|Decimal\n"
+#| "|10000.25\n"
+msgid ""
+"|Component\n"
+"|Use\n"
+"|Primitive Type\n"
+"|Example\n"
+"\n"
+"|Content\n"
+"|Mandatory\n"
+"|Decimal\n"
+"|10000\n"
+msgstr ""
+"|構成要素\n"
+"|利用\n"
+"|基本データ型\n"
+"|例\n"
+"\n"
+"|内容\n"
+"|必須\n"
+"|数値\n"
+"|10000.25\n"

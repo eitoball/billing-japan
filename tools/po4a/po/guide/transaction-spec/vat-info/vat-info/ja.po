@@ -1,0 +1,137 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: 2021-06-29 22:33+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/vat-info/vat-info.adoc:2
+#, no-wrap
+msgid "Consumption tax (CT)"
+msgstr "消費税"
+
+#. type: Plain text
+#: guide/transaction-spec/vat-info/vat-info.adoc:5
+msgid ""
+"The chapters below describe the different CT informations that can be "
+"provided in a Japanese {peppol} invoice or credit note."
+msgstr ""
+"以下の章では、日本の {peppol} の請求書やクレジット・ノートに記載できるさまざ"
+"まな消費税について説明します。"
+
+#. type: Plain text
+#: guide/transaction-spec/vat-info/vat-info.adoc:7
+msgid ""
+"Please also see <<CT category codes>> for details on the CT category code "
+"list, and <<Calculation of CT>> for detailed explanation and example on how "
+"to perform the calculations for CT Breakdown."
+msgstr ""
+"また、消費税分類コード一覧の詳細については <<CT category code>> を、消費税内"
+"訳の計算方法については <<Calculation of CT>> を参照してください。"
+
+#. type: Title ==
+#: guide/transaction-spec/vat-info/vat-info.adoc:8
+#, no-wrap
+msgid "Line CT Information"
+msgstr "明細行での消費税情報"
+
+#. type: Plain text
+#: guide/transaction-spec/vat-info/vat-info.adoc:11
+msgid ""
+"Each invoice line shall have the invoiced item CT category code (BT-151), "
+"and for all CT categories except \"Not subject to CT\" (O), the CT rate "
+"shall be provided."
+msgstr ""
+"請求書の各明細行には、請求品目の消費税カテゴリーコード（BT-151）を記載し、消"
+"費税対象外を除くすべての消費税率分類については、\"非課税\" (O) を除くすべて"
+"の 消費税率分類について、消費税率を記載すること。"
+
+#. type: Title ==
+#: guide/transaction-spec/vat-info/vat-info.adoc:12
+#, no-wrap
+msgid "Document level allowance or charge"
+msgstr "文書レベルでの割引や手数料"
+
+#. type: Plain text
+#: guide/transaction-spec/vat-info/vat-info.adoc:15
+msgid ""
+"Each document level charge or allowance must have the Document level "
+"allowance or charge CT category code (BT-95 and BT-102), and for all CT "
+"categories except \"Not subject to CT\" (O), the CT rate shall be provided."
+msgstr ""
+"文書レベルの各手数料や割引には、文書レベルの割引や手数料の消費税率分類コード"
+"（BT-95、BT-102）が必要であり、また、消費税率分類のうち、\"非課税\"（O）を除"
+"くすべての消費税率分類については、消費税率を記載すること。"
+
+#. type: Title ==
+#: guide/transaction-spec/vat-info/vat-info.adoc:16
+#, no-wrap
+msgid "CT Breakdown"
+msgstr "消費税内訳"
+
+#. type: Plain text
+#: guide/transaction-spec/vat-info/vat-info.adoc:19
+msgid ""
+"One CT Breakdown shall be provided for each distinct combination of CT "
+"category code and CT rate found in either the line CT information or the "
+"Document level allowance or charges. For some CT categories, the CT rate "
+"shall be zero, and hence the rate is not needed in order to group the CT "
+"Breakdown for these."
+msgstr ""
+"消費税内訳には、明細行の消費税情報や文書レベルでの割引・手数料に記載されてい"
+"る消費税率分類コードと消費税率の明確な組み合わせごとに1つ提供すること。消費税"
+"率分類の中には、消費税率が0のものもあり、その場合は、消費税内訳をまとめるため"
+"に税率は必要ない。"
+
+#. type: Plain text
+#: guide/transaction-spec/vat-info/vat-info.adoc:21
+msgid ""
+"Please note that for the CT rate, only significant decimals should be "
+"considered, i.e any difference in trailing zeros should not result in "
+"different CT breakdowns."
+msgstr ""
+"消費税率については、有意な小数のみを考慮する必要があることに注意してくださ"
+"い。つまり、末尾のゼロの違いによって消費税の内訳が異なることはありません。"
+
+#. type: Block title
+#: guide/transaction-spec/vat-info/vat-info.adoc:22
+#, no-wrap
+msgid "Example"
+msgstr "例"
+
+#. type: delimited block = 4
+#: guide/transaction-spec/vat-info/vat-info.adoc:27
+msgid ""
+"Invoice line 1 has category code = S and CT rate = *25* + Invoice line 2 has "
+"category code = S and CT rate = *25.00* + This should result in only one CT "
+"Breakdown."
+msgstr ""
+"明細行1行目の消費税分類コード = S で、消費税率 = *25* + 明細行2行目の消費税分"
+"類コード = S で、消費税率 = *25.00* + この場合は、消費税内訳は1つになります。"
+
+#. type: Title ==
+#: guide/transaction-spec/vat-info/vat-info.adoc:29
+#, no-wrap
+msgid "Invoice total CT amount"
+msgstr "請求合計の消費税額"
+
+#. type: Plain text
+#: guide/transaction-spec/vat-info/vat-info.adoc:31
+msgid ""
+"The invoice total CT amount (BT-110) is the sum of all CT Category CT "
+"amounts (BT-117)"
+msgstr ""
+"請求合計の消費税額 (BT-110) は、全ての消費税率分類の消費税額 (BT-117) の合計"
+"になります。"

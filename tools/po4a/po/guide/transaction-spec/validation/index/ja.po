@@ -1,0 +1,45 @@
+# Japanese translations for PACKAGE package
+# Copyright (C) 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-26 07:25+0900\n"
+"PO-Revision-Date: 2021-06-26 07:25+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Title =
+#: guide/transaction-spec/validation/index.adoc:2
+#, no-wrap
+msgid "Validation"
+msgstr "文書の検証"
+
+#. type: Plain text
+#: guide/transaction-spec/validation/index.adoc:5
+msgid ""
+"To optimize the flexibility in the validation process, each PEPPOL document "
+"is validated in different stages with shifting focus in every stage. The "
+"diagram below illustrates the different stages."
+msgstr ""
+"検証プロセスの柔軟性を最適化するために、各 PEPPOL 文書は、複数の段階で、視点"
+"を変えながら検証されます。以下の図は、異なる段階を示しています。"
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: guide/transaction-spec/validation/index.adoc:6
+#, no-wrap
+msgid "Validation stages"
+msgstr "検証段階"
+
+#. type: Target for macro image
+#: guide/transaction-spec/validation/index.adoc:6
+#, no-wrap
+msgid "../shared/images/validation-new.png"
+msgstr "../shared/images/validation-new.png"

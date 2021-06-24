@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-28 21:23+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/shared/profiles/info.adoc:2
+#, no-wrap
+msgid "Profiles and messages [[profiles]]"
+msgstr ""
+
+#. type: Plain text
+#: guide/shared/profiles/info.adoc:5
+msgid ""
+"All messages contains ProfileID and CustomizationID. ProfileID identifies "
+"what business process a given message is part of, and CustomizationID "
+"identifies the kind of message and the rules applied."
+msgstr ""
+
+#. type: Plain text
+#: guide/shared/profiles/info.adoc:7
+msgid ""
+"Profiles are connected to one business process, and may contain multiple "
+"document types. Valid document instances shall contain corresponding "
+"ProfileID and CustomizationID."
+msgstr ""
+
+#. type: Plain text
+#: guide/shared/profiles/info.adoc:9
+msgid ""
+"CustomizationID is a string without spaces. The list below contains spaces "
+"in CustomizationID to make them easier to read. *Make sure to remove any "
+"spaces before use.*"
+msgstr ""

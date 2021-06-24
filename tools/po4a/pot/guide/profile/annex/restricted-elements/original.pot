@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-01 00:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/profile/annex/restricted-elements.adoc:2
+#, no-wrap
+msgid "Restrictions for profile 01 - Billing"
+msgstr ""
+
+#. type: Table
+#: guide/profile/annex/restricted-elements.adoc:20
+#, no-wrap
+msgid ""
+"| BT-ID\n"
+"| Business Term\n"
+"| Restrition Type\n"
+"| Description\n"
+"| Rule\n"
+"\n"
+"| BT-3\n"
+"| Invoice type code\n"
+"| Mark defined values as not allowed\n"
+"| Allowed set of values can be found in <<Invoice Type Code>>\n"
+"| \n"
+"\n"
+msgstr ""

@@ -1,0 +1,7 @@
+
+= UBL スキーマと名前空間
+
+使用されている XML スキーマは以下になります。
+
+* ターゲット名前空間として `urn:oasis:names:specification:ubl:schema:xsd:Invoice-2` を持つ {UBLInv}
+* ターゲット名前空間として `urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2` を持つ {UBLCreditNote}

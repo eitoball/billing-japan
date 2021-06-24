@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/transaction-spec/functionality/intro.adoc:7
+#: guide/transaction-spec/functionality/accounting.adoc:2
+#, no-wrap
+msgid "Accounting"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/accounting.adoc:5
+msgid ""
+"Recording a business transaction into the financial accounts of an "
+"organization is one of the main objectives of the invoice. According to "
+"financial accounting best practice and CT rules every Taxable person shall "
+"keep accounts in sufficient detail for CT to be applied and its application "
+"checked by the tax authorities. For that reason, an invoice shall provide "
+"for the information at document and line level that enables booking on both "
+"the debit and the credit side."
+msgstr ""

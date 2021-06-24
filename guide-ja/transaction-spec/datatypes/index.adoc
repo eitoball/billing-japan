@@ -1,0 +1,14 @@
+
+= セマンティックデータ型
+
+セマンティックデータ型は、 セマンティックモデルで定義された情報要素によって表現される意味概念と、技術的な実装との間のギャップを埋めるために使用されます。セマンティックデータ型は、コンテンツの許容値領域と、その正確な解釈を確実にするために必要な追加の情報構成要素（属性）を定義します。
+
+NOTE: 技術的な実装の詳細は、 <<Detailed UBL message guideline>> に記載されています。
+
+:leveloffset: +1
+
+include::primitive-types.adoc[]
+
+include::semantic-types.adoc[]
+
+:leveloffset: -1

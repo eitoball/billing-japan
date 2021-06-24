@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-01 00:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/profile/annex/known-issues.adoc:2
+#, no-wrap
+msgid "Known Issues for profile 01 - Billing"
+msgstr ""
+
+#. type: Table
+#: guide/profile/annex/known-issues.adoc:18
+#, no-wrap
+msgid ""
+"| BT-ID\n"
+"| Business Term\n"
+"| Known Issue\n"
+"| Work Around\n"
+"\n"
+"| BT-60, BT-90\n"
+"| Payee identifier with cardinality, Bank assigned creditor identifier\n"
+"| In the PINT data model BT-60 and BT-90 are business terms that are defined independently of each other. Both map onto PayeeParty/PartyIdentification/ID. However, the cardinalities stated in the syntax block simultaneous use of the BT-60 and BT-90 identifiers. This situation might arise if the payment provision is to be based on factored SEPA direct debit.\n"
+"| None\n"
+"\n"
+msgstr ""

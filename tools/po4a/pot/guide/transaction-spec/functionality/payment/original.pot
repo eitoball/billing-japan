@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/transaction-spec/functionality/intro.adoc:11
+#: guide/transaction-spec/functionality/payment.adoc:2
+#, no-wrap
+msgid "Payment"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/payment.adoc:5
+msgid ""
+"An invoice represents a claim for payment. The issuance of an invoice may "
+"take place either before or after the payment is carried out. When an "
+"invoice is issued before payment it represents a request to the Buyer to "
+"pay, in which case the invoice commonly contains information that enables "
+"the Buyer, in the role of a debtor, to correctly initiate the transfer of "
+"the payment, unless that information is already agreed in prior contracts or "
+"by means of payment instructions separately lodged with the Buyer."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/payment.adoc:7
+msgid ""
+"If an invoice is issued after payment, such as when the order process "
+"included payment instructions or when paying with a credit card, online or "
+"telephonic purchases, the invoice may contain information about the payment "
+"made in order to facilitate invoice to payment reconciliation on the Buyer "
+"side. An invoice may be partially paid before issuing such as when a pre-"
+"payment is made to confirm an order."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/functionality/payment.adoc:9
+msgid ""
+"Invoices, conformant with this specification should identify the means of "
+"payment for settlement of the invoice and clearly state what payment amount "
+"is requested. They should provide necessary details to support bank "
+"transfers. Payments by means of Credit Transfer, Direct debit, and Payment "
+"Card are in scope."
+msgstr ""

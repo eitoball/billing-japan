@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: guide/transaction-spec/calculations/rounding.adoc:2
+#, no-wrap
+msgid "Rounding"
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/calculations/rounding.adoc:6
+msgid ""
+"To minimize the risk of differences due to rounding, the following rules "
+"apply:"
+msgstr ""
+
+#. type: delimited block = 4
+#: guide/transaction-spec/calculations/rounding.adoc:10
+msgid "All document level amounts shall have no decimals for accounting"
+msgstr ""
+
+#. type: delimited block = 4
+#: guide/transaction-spec/calculations/rounding.adoc:11
+msgid "Invoice line net amount shall be rounded"
+msgstr ""
+
+#. type: delimited block = 4
+#: guide/transaction-spec/calculations/rounding.adoc:12
+msgid ""
+"Results from calculations involving already rounded amounts are not subject "
+"to rounding, like payable amounts and total amounts included CT."
+msgstr ""
+
+#. type: Plain text
+#: guide/transaction-spec/calculations/rounding.adoc:14
+msgid ""
+"Please also see <<Calculation>> for details on how to calculate the "
+"different amounts."
+msgstr ""

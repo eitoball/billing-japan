@@ -1,0 +1,22 @@
+
+= セマンティックデータ型
+
+以下の表では、各セマンティックデータ型について、基本データ型の他に属性、書式、小数などの様々な特徴を定義しています。これらは {ISO15000} に基づいています。
+
+電子インボイスのインスタンスで使用される場合、各データ要素にはデータが含まれます。以下の表では、これを「コンテンツ」と呼ぶ。ビジネス用語が使用される場合、この用語は 常に コンテンツを持っている必要があります。従って、コンテンツは常に必須となります。
+
+
+:leveloffset: +1
+
+include::amount.adoc[]
+include::price.adoc[]
+include::percentage.adoc[]
+include::quantities.adoc[]
+include::codes.adoc[]
+include::identifier.adoc[]
+include::date.adoc[]
+include::doc-reference.adoc[]
+include::text.adoc[]
+include::binary.adoc[]
+
+:leveloffset: -1

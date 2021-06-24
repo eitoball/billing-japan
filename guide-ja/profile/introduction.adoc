@@ -1,0 +1,55 @@
+[preface]
+= openPEPPOL と BIS の紹介
+
+
+{peppol} BIS では、 {peppol} ビジネスプロセスを実装するための一連の仕様を提供します。
+
+This specification, is a Country Specification of the Peppol International model ({pint}). Any instance documents compliant to this specification will be compliant with the PINT.
+
+この文書では、課金プロセスに関する効果的な実装と電子的協業の利用増加を促進を目的としています。
+
+
+.Statement of copyright
+****
+This Peppol Business Interoperability Specification (Peppol BIS) document is a Country Specification based on the PINT. The restrictions on PINT implemented in this Peppol BIS are identified in the conformance statement provided in appendix A.
+
+The copyright of PINT is owned by OpenPEPPOL and its members.cOpenPEPPOL AISBL holds the copyright of this Peppol BIS.
+
+This PEPPOL BIS document may not be modified, re-distribute, sold or repackaged in any other way without the prior consent of OpenPEPPOL AISBL.
+****
+
+
+== 文書構造
+
+この文書の構造は以下のようになっています。
+
+*	*第1章から第4章* ビジネスプロセス、要求、および、機能について
+*	*第5章* 意味的データ型について
+*	*第6章から第8章* VAT、その計算方法や丸め方について
+*	*第9章* 請求書データ例
+*	*第10章* サンプルコードの詳細と一覧
+*   *第11章* PEPPOL識別子についての情報
+*	*第12章* UBLスキーマと名前空間について
+*	*第13・14章* 文書データの検証についてや検証ルールについて
+*	*補足* {PINT} に関する制限、産業間共通請求書の利用、 各国固有の規則、構文規則について
+
+== スコープ
+
+この文書では、相互運用性を確保するための要件を明確にすることに関するものであり、これらの要件をサポートし、実施するためのガイドラインを提供します。また、請求書及び信用手形取引の詳細な実施ガイドラインを提供します。
+
+== 対象
+
+The audience for this document is organisations wishing to be Peppol enabled for exchanging electronic invoices, and/or their ICT-suppliers. These organisations may be:
+
+     * サービス提供事業者
+     * 契約期間 (CA)
+     * 事業者 (EO)
+     * ソフトウェア開発者
+
+さらに具体的には、以下のような役割の方が対象です:
+
+    * ICT アーキテクト
+    * ICT 開発者
+    * ビジネス専門家
+
+For further information on Peppol/OpenPEPPOL, please see {common}

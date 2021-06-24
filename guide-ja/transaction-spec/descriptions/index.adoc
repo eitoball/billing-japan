@@ -1,0 +1,30 @@
+[[descriptions]]
+= 取引の部分例
+
+以下の節では、取引の部分例を示しています。また、すべての要素や属性、それらのルールやコード一覧の使用についての詳細は、 <<Detailed UBL message guideline>> を参照してください。
+
+:leveloffset: +1
+
+
+include::roles-and-actor.adoc[]
+
+include::delivery-details.adoc[]
+
+include::references/index.adoc[]
+
+include::preceding-invoice.adoc[]
+
+include::allowance.adoc[]
+
+include::vat-currency.adoc[]
+
+include::payment.adoc[]
+
+include::item.adoc[]
+
+include::price.adoc[]
+
+include::uom.adoc[]
+
+
+:leveloffset: -1

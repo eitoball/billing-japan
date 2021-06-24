@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 16:34+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. include::rules/index.adoc[]
+#. type: Title =
+#: guide/profile/introduction.adoc:2
+#, no-wrap
+msgid "Introduction to openPEPPOL and BIS"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:6
+msgid ""
+"This {peppol} BIS provides a set of specifications for implementing a "
+"{peppol} business process."
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:8
+msgid ""
+"This specification, is a Country Specification of the Peppol International "
+"model ({pint}). Any instance documents compliant to this specification will "
+"be compliant with the PINT."
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:10
+msgid ""
+"The purpose of this document is to facilitate an efficient implementation "
+"and increased use of electronic collaboration regarding the billing process."
+msgstr ""
+
+#. type: Block title
+#: guide/profile/introduction.adoc:12
+#, no-wrap
+msgid "Statement of copyright"
+msgstr ""
+
+#. type: delimited block * 4
+#: guide/profile/introduction.adoc:15
+msgid ""
+"This Peppol Business Interoperability Specification (Peppol BIS) document is "
+"a Country Specification based on the PINT. The restrictions on PINT "
+"implemented in this Peppol BIS are identified in the conformance statement "
+"provided in appendix A."
+msgstr ""
+
+#. type: delimited block * 4
+#: guide/profile/introduction.adoc:17
+msgid ""
+"The copyright of PINT is owned by OpenPEPPOL and its members.cOpenPEPPOL "
+"AISBL holds the copyright of this Peppol BIS."
+msgstr ""
+
+#. type: delimited block * 4
+#: guide/profile/introduction.adoc:19
+msgid ""
+"This PEPPOL BIS document may not be modified, re-distribute, sold or "
+"repackaged in any other way without the prior consent of OpenPEPPOL AISBL."
+msgstr ""
+
+#. type: Title ==
+#: guide/profile/introduction.adoc:22
+#, no-wrap
+msgid "Document Structure"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:25
+msgid "This document is structured as follows:"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:27
+#, no-wrap
+msgid "*Chapters 1 - 4* gives general information on the business processes, requirements and functionalities\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:28
+#, no-wrap
+msgid "*Chapter 5* describes the semantical data types\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:29
+#, no-wrap
+msgid "*Chapters 6 - 8* describes tax, calculations and rounding.\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:30
+#, no-wrap
+msgid "*Chapter 9* provides examples of selected parts of the invoice\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:31
+#, no-wrap
+msgid "*Chapter 10* gives details and links to all code lists used\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:32
+#, no-wrap
+msgid "*Chapter 11* gives information on PEPPOL identifiers\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:33
+#, no-wrap
+msgid "*Chapter 12* describes in detail central information elements.\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:34
+#, no-wrap
+msgid "*Chapters 13 and 14* provides information on validation and validation rules\n"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:35
+#, no-wrap
+msgid "*Annexes* give information on restrictions on top of the {PINT}.\n"
+msgstr ""
+
+#. type: Title ==
+#: guide/profile/introduction.adoc:36
+#, no-wrap
+msgid "Scope"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:39
+msgid ""
+"This document is concerned with clarifying requirements for ensuring "
+"interoperability and provides guidelines for the support and implementation "
+"of these requirements. This document will also provide a detailed "
+"implementation guideline for the invoice and credit note transactions."
+msgstr ""
+
+#. type: Title ==
+#: guide/profile/introduction.adoc:40
+#, no-wrap
+msgid "Audience"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:43
+msgid ""
+"The audience for this document is organisations wishing to be Peppol enabled "
+"for exchanging electronic invoices, and/or their ICT-suppliers. These "
+"organisations may be:"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:45
+msgid "Service providers"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:46
+msgid "Contracting Authorities (CA)"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:47
+msgid "Economic Operators (EO)"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:48
+msgid "Software Developers"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:50
+msgid "More specifically, roles addressed are the following:"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:52
+msgid "ICT Architects"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:53
+msgid "ICT Developers"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:54
+msgid "Business Experts"
+msgstr ""
+
+#. type: Plain text
+#: guide/profile/introduction.adoc:55
+msgid "For further information on Peppol/OpenPEPPOL, please see {common}"
+msgstr ""
